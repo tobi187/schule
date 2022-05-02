@@ -1,2 +1,28 @@
+# Mainboard
+
 Um die verschiedenen Komponenten eines Computers zu verbinden, ist auf dem Mainboard ein zweiteiliger Chipsatz aufgebracht. Den oberen Teil bildet die Northbridge, die für die Anbindung von RAM und Grafikkarte an die CPU verantwortlich ist. Der Datenaustausch mit der CPU muss einen großen Datendurchsatz ermöglichen, was eine hohe Taktrate und damit verbundene Kühlung erfordert. Auf neusten Mainboards wird die Northbridge aus Geschwindigkeitsgründen, je nach Chipsatz teilweise oder vollständig, in den Hauptprozessor integriert (aktueller Standard). Über die im unteren Teil des Mainboards integrierte Southbridge erfolgt die Steuerung der Laufwerke, Schnittstellen sowie der Steckplätze für Erweiterungskarten. Zum Datentransfer ist die Southbridge über einen Bus oder eine Direktverbindung mit der Northbridge, dem BIOS und dem RAM verbunden. Ist der Speichercontroller direkt in die CPU integriert, wird die Southbridge bei einigen Chipsätzen in die Northbridge eingegliedert. In Platz sparend gebauten Systemen sind Grafik-, Sound- oder Netzwerk-Komponenten bereits direkt auf der Hauptplatine integriert ("onboard"). Die Chip-Produzenten AMD und Intel entwickeln darüber hinaus Singlechips, die CPU und Grafikchip in einem Prozessor vereinen.
+
+
+
+# Monitor
+
+Ein Bildschirm (Monitor) ist eine elektrisch angesteuerte Anzeige ohne bewegliche Teile zur optischen Signalisierung von veränderlichen Informationen wie Bildern oder Zeichen. Der Bildschirm kann dabei ein eigenständiges Gerät oder Teil eines Gerätes sein. 
+
+
+## Begrifferklärung LCD/IPS/TFT/LED
+LCD: Liquid Crystal Displays zeichnen sich durch eine Technologie basierend auf Flüssigkristallen aus. Die einzelnen Segmente, in der Größe von Pixeln, können durch elektrische Spannung die Richtung des Lichts beeinflussen und erzeugen so ein Bild. Dadurch werden sehr flache Displays ermöglicht.
+TFT: Die Abkürzung TFT steht für „Thin Film Transistor“ und bezeichnet eine Weiterentwicklung der LCD-Technologie. TFT-Monitore haben ihren Namen von den kleinen Transistoren, die die fluoreszierende Schicht im Inneren zum Leuchten bringen. Die Weiterentwicklung minimiert Störeffekte und ist damit zur Regel in der LCD-Fertigung geworden.
+LED: Bildschirme leben davon beleuchtet zu werden. Sei es nun ein TFT-Monitor mit oder ohne IPS: Licht ist unabdingbar. Die als LED abgekürzten „Light Emitting Dioden“ tun dies möglichst stromsparend und sind dabei auch sehr langlebig.
+IPS: IPS-Displays haben den großen Vorteil, dass sie eine hohe Farbgenauigkeit aufweisen. Das „In Plane Switching“ sorgt sowohl für einen hohen Kontrast als auch für eine Verbesserung des Blickwinkels. Sie sind dementsprechend unabhängig von der Perspektive, sondern produzieren immer ein klares Bild mit starken Farben. Zudem sind sie genauer als beispielsweise die TN-Technologie es ist. Aus diesem Grund sind diese Bildschirme besonders bei Grafikern und Fotografen beliebt.
+
+
+## Wie funktioniert ein Röhrenmonitor?
+
+Wenn der Computer arbeitet und rechnet soll das Ergebnis für uns Benutzer auch visualisiert werden. Dazu dient eben der Bildschirm. Die Grafikkarte sendet ein Signal an den Monitor. Bei Röhrenmonitoren muss das digitale Signal noch in ein analoges Signal umgewandelt werden.
+
+Der Monitor besteht aus einer Leuchtschicht und wenn dort Elektronen darauf treffen, fangen diese zu leuchten an. Jeder Pixel ist wieder in drei Leuchtpunkte unterteilt, die mit dem Elektronenstrahl angesteuert werden können. Drei Farbpixel (grün, rot, blau) sind wichtig um alle Farben darstellen zu können.
+
+Über ein elektrisches Feld wird der Elektronenstrahl so abgelenkt, dass er nacheinander die entsprechenden Pixel aktivieren kann und somit für uns ein Bild erzeugt wird. Dies geschieht natürlich so schnell, dass das Bild flimmerfrei wahrgenommen wird. Bildschirme arbeiten normalerweise mit einer Rate zwischen 50-150 Hz. Das heißt 50-150 mal pro Sekunde erfolgt der Bildaufbau.
+
+
 
